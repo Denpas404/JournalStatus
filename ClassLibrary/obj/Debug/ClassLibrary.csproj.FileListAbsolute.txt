@@ -1,0 +1,6 @@
+C:\Users\dpaas\source\repos\JournalStatus\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\dpaas\source\repos\JournalStatus\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\dpaas\source\repos\JournalStatus\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\dpaas\source\repos\JournalStatus\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dpaas\source\repos\JournalStatus\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\dpaas\source\repos\JournalStatus\ClassLibrary\obj\Debug\ClassLibrary.pdb
