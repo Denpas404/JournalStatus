@@ -5,12 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JournalStatus"
         mc:Ignorable="d"
-        Title="Journal status v1" Height="1550" Width="1000" ResizeMode="NoResize">
+        Title="Journal status v1" Height="725" Width="1000" ResizeMode="NoResize" >
+    <!--Height="705"-->
     <Grid>
         <!--<ScrollViewer Visibility="Visible">
-            <Grid>-->
-        <Button x:Name="read_btn" Content="Indlæs" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Height="25" Width="50" Click="read_btn_Click"/>
+            <Grid>
+        -->
+        <ScrollViewer Visibility="Visible">
+            <Grid>
+        <Button x:Name="read_btn" Content="Indlæs" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Height="25" Width="50" Click="read_btn_Clik"/>
+                
         <Button x:Name="save_btn" Content="Gem" HorizontalAlignment="Right" Margin="0,25,25,0" VerticalAlignment="Top"  Height="25" Width="50" Click="save_btn_Click" Grid.Column="1"/>
+                
         <Label x:Name="generaleOplysninger_lbl" Content="Generale Oplysninger" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="110,25,0,0" VerticalAlignment="Top" Height="26" Width="124"/>
         <Label x:Name="helbredstilstande_lbl" Content="Helbredstilstande" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="254,25,0,0" VerticalAlignment="Top" Height="26" Width="103"/>
         <Label x:Name="funktionersEvneTilstande_lbl" Content="Funktionersevnetilstande" HorizontalAlignment="Left" Margin="377,25,0,0" VerticalAlignment="Top" Height="26" Width="142" Grid.Column="1"/>
@@ -141,8 +147,8 @@
         <CheckBox x:Name="cpr209_chkbox" HorizontalAlignment="Left" Margin="858,501,0,0" VerticalAlignment="Top" Grid.Column="1"/>
 
         <Separator HorizontalAlignment="Left" Margin="0,520,0,0" VerticalAlignment="Top" Height="31" Width="998" Grid.Column="1" Grid.ColumnSpan="3"/>
-        
-        <Label x:Name="stue210_lbl" Content="Stue 210" HorizontalAlignment="Left" Margin="22,543,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+
+        <Label x:Name="stue210_lbl" Content="Stue 210" HorizontalAlignment="Left" Margin="22,545,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
         <CheckBox x:Name="generaleOplysninger210_chkbox" HorizontalAlignment="Left" Margin="156,551,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
         <CheckBox x:Name="helbredstilstande210_chkbox" HorizontalAlignment="Left" Margin="298,551,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
         <CheckBox x:Name="funktionersEvneTilstande210_chkbox" HorizontalAlignment="Left" Margin="440,551,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
@@ -153,13 +159,216 @@
         <CheckBox x:Name="forflytningsplan210_chkbox" HorizontalAlignment="Left" Margin="771,551,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="cpr210_chkbox" HorizontalAlignment="Left" Margin="858,551,0,0" VerticalAlignment="Top"/>
 
+        <Separator HorizontalAlignment="Center" Margin="0,570,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue211_lbl" Content="Stue 211" HorizontalAlignment="Left" Margin="22,595,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger211_chkbox" HorizontalAlignment="Left" Margin="156,601,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande211_chkbox" HorizontalAlignment="Left" Margin="298,601,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande211_chkbox" HorizontalAlignment="Left" Margin="440,601,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt211_chkbox" HorizontalAlignment="Left" Margin="545,601,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt211_chkbox" HorizontalAlignment="Left" Margin="575,601,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt211_chkbox" HorizontalAlignment="Left" Margin="605,601,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser211_chkbox" HorizontalAlignment="Left" Margin="667,601,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan211_chkbox" HorizontalAlignment="Left" Margin="771,601,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr211_chkbox" HorizontalAlignment="Left" Margin="858,601,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,620,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue212_lbl" Content="Stue 212" HorizontalAlignment="Left" Margin="22,645,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger212_chkbox" HorizontalAlignment="Left" Margin="156,651,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande212_chkbox" HorizontalAlignment="Left" Margin="298,651,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande212_chkbox" HorizontalAlignment="Left" Margin="440,651,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt212_chkbox" HorizontalAlignment="Left" Margin="545,651,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt212_chkbox" HorizontalAlignment="Left" Margin="575,651,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt212_chkbox" HorizontalAlignment="Left" Margin="605,651,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser212_chkbox" HorizontalAlignment="Left" Margin="667,651,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan212_chkbox" HorizontalAlignment="Left" Margin="771,651,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr212_chkbox" HorizontalAlignment="Left" Margin="858,651,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,670,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+        <Separator HorizontalAlignment="Center" Margin="0,695,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue200_lbl" Content="Stue 200" HorizontalAlignment="Left" Margin="22,720,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger200_chkbox" HorizontalAlignment="Left" Margin="156,726,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande200_chkbox" HorizontalAlignment="Left" Margin="298,727,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande200_chkbox" HorizontalAlignment="Left" Margin="440,727,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt200_chkbox" HorizontalAlignment="Left" Margin="545,727,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt200_chkbox" HorizontalAlignment="Left" Margin="575,727,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt200_chkbox" HorizontalAlignment="Left" Margin="605,727,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser200_chkbox" HorizontalAlignment="Left" Margin="667,727,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan200_chkbox" HorizontalAlignment="Left" Margin="771,727,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr200_chkbox" HorizontalAlignment="Left" Margin="858,727,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,745,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue213_lbl" Content="Stue 213" HorizontalAlignment="Left" Margin="22,770,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger213_chkbox" HorizontalAlignment="Left" Margin="156,776,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande213_chkbox" HorizontalAlignment="Left" Margin="298,776,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande213_chkbox" HorizontalAlignment="Left" Margin="440,776,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt213_chkbox" HorizontalAlignment="Left" Margin="545,776,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt213_chkbox" HorizontalAlignment="Left" Margin="575,776,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt213_chkbox" HorizontalAlignment="Left" Margin="605,776,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser213_chkbox" HorizontalAlignment="Left" Margin="667,776,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan213_chkbox" HorizontalAlignment="Left" Margin="771,776,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr213_chkbox" HorizontalAlignment="Left" Margin="858,776,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,795,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue214_lbl" Content="Stue 214" HorizontalAlignment="Left" Margin="22,820,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger214_chkbox" HorizontalAlignment="Left" Margin="156,826,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande214_chkbox" HorizontalAlignment="Left" Margin="298,826,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande214_chkbox" HorizontalAlignment="Left" Margin="440,826,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt214_chkbox" HorizontalAlignment="Left" Margin="545,826,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt214_chkbox" HorizontalAlignment="Left" Margin="575,826,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt214_chkbox" HorizontalAlignment="Left" Margin="605,826,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser214_chkbox" HorizontalAlignment="Left" Margin="667,826,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan214_chkbox" HorizontalAlignment="Left" Margin="771,826,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr214_chkbox" HorizontalAlignment="Left" Margin="858,826,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,845,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue215_lbl" Content="Stue 215" HorizontalAlignment="Left" Margin="22,870,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger215_chkbox" HorizontalAlignment="Left" Margin="156,875,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande215_chkbox" HorizontalAlignment="Left" Margin="298,875,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande215_chkbox" HorizontalAlignment="Left" Margin="440,875,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt215_chkbox" HorizontalAlignment="Left" Margin="545,875,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt215_chkbox" HorizontalAlignment="Left" Margin="575,875,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt215_chkbox" HorizontalAlignment="Left" Margin="605,875,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser215_chkbox" HorizontalAlignment="Left" Margin="667,875,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan215_chkbox" HorizontalAlignment="Left" Margin="771,875,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr215_chkbox" HorizontalAlignment="Left" Margin="858,875,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,895,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue216_lbl" Content="Stue 216" HorizontalAlignment="Left" Margin="22,920,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger216_chkbox" HorizontalAlignment="Left" Margin="156,928,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande216_chkbox" HorizontalAlignment="Left" Margin="298,928,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande216_chkbox" HorizontalAlignment="Left" Margin="440,928,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt216_chkbox" HorizontalAlignment="Left" Margin="545,928,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt216_chkbox" HorizontalAlignment="Left" Margin="575,928,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt216_chkbox" HorizontalAlignment="Left" Margin="605,928,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser216_chkbox" HorizontalAlignment="Left" Margin="667,928,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan216_chkbox" HorizontalAlignment="Left" Margin="771,928,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr216_chkbox" HorizontalAlignment="Left" Margin="858,928,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,942,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue217_lbl" Content="Stue 217" HorizontalAlignment="Left" Margin="22,973,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger217_chkbox" HorizontalAlignment="Left" Margin="156,973,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande217_chkbox" HorizontalAlignment="Left" Margin="298,973,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande217_chkbox" HorizontalAlignment="Left" Margin="440,973,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt217_chkbox" HorizontalAlignment="Left" Margin="545,973,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt217_chkbox" HorizontalAlignment="Left" Margin="575,973,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt217_chkbox" HorizontalAlignment="Left" Margin="605,973,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser217_chkbox" HorizontalAlignment="Left" Margin="667,973,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan217_chkbox" HorizontalAlignment="Left" Margin="771,973,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr217_chkbox" HorizontalAlignment="Left" Margin="858,973,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,995,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue218_lbl" Content="Stue 218" HorizontalAlignment="Left" Margin="22,1022,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger218_chkbox" HorizontalAlignment="Left" Margin="156,1028,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande218_chkbox" HorizontalAlignment="Left" Margin="298,1028,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande218_chkbox" HorizontalAlignment="Left" Margin="440,1028,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt218_chkbox" HorizontalAlignment="Left" Margin="545,1028,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt218_chkbox" HorizontalAlignment="Left" Margin="575,1028,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt218_chkbox" HorizontalAlignment="Left" Margin="605,1028,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser218_chkbox" HorizontalAlignment="Left" Margin="667,1028,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan218_chkbox" HorizontalAlignment="Left" Margin="771,1028,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr218_chkbox" HorizontalAlignment="Left" Margin="858,1028,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,1045,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue219_lbl" Content="Stue 219" HorizontalAlignment="Left" Margin="22,1070,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger219_chkbox" HorizontalAlignment="Left" Margin="156,1076,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande219_chkbox" HorizontalAlignment="Left" Margin="298,1076,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande219_chkbox" HorizontalAlignment="Left" Margin="440,1076,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt219_chkbox" HorizontalAlignment="Left" Margin="545,1076,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt219_chkbox" HorizontalAlignment="Left" Margin="575,1076,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt219_chkbox" HorizontalAlignment="Left" Margin="605,1076,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser219_chkbox" HorizontalAlignment="Left" Margin="667,1076,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan219_chkbox" HorizontalAlignment="Left" Margin="771,1076,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr219_chkbox" HorizontalAlignment="Left" Margin="858,1076,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,1095,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue220_lbl" Content="Stue 220" HorizontalAlignment="Left" Margin="22,1120,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger220_chkbox" HorizontalAlignment="Left" Margin="156,1126,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande220_chkbox" HorizontalAlignment="Left" Margin="298,1126,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande220_chkbox" HorizontalAlignment="Left" Margin="440,1126,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt220_chkbox" HorizontalAlignment="Left" Margin="545,1126,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt220_chkbox" HorizontalAlignment="Left" Margin="575,1126,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt220_chkbox" HorizontalAlignment="Left" Margin="605,1126,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser220_chkbox" HorizontalAlignment="Left" Margin="667,1126,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan220_chkbox" HorizontalAlignment="Left" Margin="771,1126,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr220_chkbox" HorizontalAlignment="Left" Margin="858,1126,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,1145,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue221_lbl" Content="Stue 221" HorizontalAlignment="Left" Margin="22,1170,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger221_chkbox" HorizontalAlignment="Left" Margin="156,1176,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande221_chkbox" HorizontalAlignment="Left" Margin="298,1176,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande221_chkbox" HorizontalAlignment="Left" Margin="440,1176,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt221_chkbox" HorizontalAlignment="Left" Margin="545,1176,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt221_chkbox" HorizontalAlignment="Left" Margin="575,1176,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt221_chkbox" HorizontalAlignment="Left" Margin="605,1176,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser221_chkbox" HorizontalAlignment="Left" Margin="667,1176,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan221_chkbox" HorizontalAlignment="Left" Margin="771,1176,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr221_chkbox" HorizontalAlignment="Left" Margin="858,1176,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,1195,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue222_lbl" Content="Stue 222" HorizontalAlignment="Left" Margin="22,1220,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger222_chkbox" HorizontalAlignment="Left" Margin="156,1226,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande222_chkbox" HorizontalAlignment="Left" Margin="298,1226,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande222_chkbox" HorizontalAlignment="Left" Margin="440,1226,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt222_chkbox" HorizontalAlignment="Left" Margin="545,1226,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt222_chkbox" HorizontalAlignment="Left" Margin="575,1226,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt222_chkbox" HorizontalAlignment="Left" Margin="605,1226,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser222_chkbox" HorizontalAlignment="Left" Margin="667,1226,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan222_chkbox" HorizontalAlignment="Left" Margin="771,1226,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr222_chkbox" HorizontalAlignment="Left" Margin="858,1226,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Center" Margin="0,1245,0,0" VerticalAlignment="Top" Height="31" Width="998"/>
+
+        <Label x:Name="stue223_lbl" Content="Stue 223" HorizontalAlignment="Left" Margin="22,1270,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
+        <CheckBox x:Name="generaleOplysninger223_chkbox" HorizontalAlignment="Left" Margin="156,1276,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="helbredstilstande223_chkbox" HorizontalAlignment="Left" Margin="298,1276,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
+        <CheckBox x:Name="funktionersEvneTilstande223_chkbox" HorizontalAlignment="Left" Margin="440,1276,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
+        <CheckBox x:Name="dagvagt223_chkbox" HorizontalAlignment="Left" Margin="545,1276,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="aftenvagt223_chkbox" HorizontalAlignment="Left" Margin="575,1276,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="nattevagt223_chkbox" HorizontalAlignment="Left" Margin="605,1276,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
+        <CheckBox x:Name="ydelser223_chkbox" HorizontalAlignment="Left" Margin="667,1276,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="forflytningsplan223_chkbox" HorizontalAlignment="Left" Margin="771,1276,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cpr223_chkbox" HorizontalAlignment="Left" Margin="858,1276,0,0" VerticalAlignment="Top"/>
+
+        <Separator HorizontalAlignment="Left" Margin="-407,663,0,0" VerticalAlignment="Top" Height="32" Width="1295" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
 
 
 
 
 
 
-        <!-- </Grid>
+
+
+
+
+
+
+
+            </Grid>
+        </ScrollViewer>
+
+        <!--    </Grid>
         </ScrollViewer>
         -->
 
@@ -174,144 +383,6 @@
                         </TransformGroup>
                     </Separator.RenderTransform>
                 </Separator>
-        -->
-
-
-
-
-
-        <!--
-        <Button x:Name="read_btn" Content="Indlæs" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Height="25" Width="50" Click="read_btn_Click"/>
-        <Button x:Name="save_btn" Content="Gem" HorizontalAlignment="Right" Margin="0,25,25,0" VerticalAlignment="Top"  Height="25" Width="50" Click="save_btn_Click" Grid.Column="1"/>
-        <Label x:Name="generaleOplysninger_lbl" Content="Generale Oplysninger" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="110,25,0,0" VerticalAlignment="Top" Height="26" Width="124"/>
-        <Label x:Name="helbredstilstande_lbl" Content="Helbredstilstande" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="254,25,0,0" VerticalAlignment="Top" Height="26" Width="103"/>
-        <Label x:Name="funktionersEvneTilstande_lbl" Content="Funktionersevnetilstande" HorizontalAlignment="Left" Margin="377,25,0,0" VerticalAlignment="Top" Height="26" Width="142" Grid.Column="1"/>
-        <Label x:Name="besoegsplan_lbl" Content="Besøgsplan" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="548,25,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="dagvagt_lbl" Content="DV" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="540,45,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="aftenvagt_lbl" Content="AV" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="571,45,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="nattevagt_lbl" Content="NV" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="600,45,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="ydelser_lbl" Content="Ydelser" Grid.ColumnSpan="3" HorizontalAlignment="Left" Margin="651,25,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="forflytningsplan_lbl" Content="Forflytningsplan" HorizontalAlignment="Left" Margin="731,25,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <Label x:Name="cpr_lbl" Content="CPR" HorizontalAlignment="Left" Margin="860,25,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-
-        <Separator HorizontalAlignment="Left" Margin="0,70,0,0" Width="998" Grid.Column="1" Height="31" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
-
-        <Label x:Name="stue201_lbl" Content="Stue 201" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="22,95,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
-        <CheckBox x:Name="generaleOplysninger201_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="156,100,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="helbredstilstande201_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="298,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
-        <CheckBox x:Name="funktionersEvneTilstande201_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="440,100,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="dagvagt201_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="545,100,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="aftenvagt201_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="575,100,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="nattevagt201_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="605,100,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="ydelser201_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="667,100,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="forflytningsplan201_chkbox" HorizontalAlignment="Left" Margin="771,100,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <CheckBox x:Name="cpr201_chkbox" HorizontalAlignment="Left" Margin="868,100,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-
-        <Separator HorizontalAlignment="Left" Margin="0,120,0,0" VerticalAlignment="Top" Height="31" Width="998" Grid.Column="1" Grid.ColumnSpan="3"/>
-
-
-        <Label x:Name="stue202_lbl" Content="Stue 202" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="22,145,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
-        <CheckBox x:Name="generaleOplysninger202_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="156,151,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="helbredstilstande202_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="298,151,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
-        <CheckBox x:Name="funktionersEvneTilstande202_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="440,151,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="dagvagt202_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="545,151,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="aftenvagt202_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="575,151,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="nattevagt202_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="605,151,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="ydelser202_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="667,151,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="forflytningsplan202_chkbox" HorizontalAlignment="Left" Margin="771,151,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <CheckBox x:Name="cpr202_chkbox" HorizontalAlignment="Left" Margin="868,151,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-
-        <Separator HorizontalAlignment="Left" Margin="0,170,0,0" VerticalAlignment="Top" Height="31" Width="998" Grid.Column="1" Grid.ColumnSpan="3"/>
-
-        <Label x:Name="stue203_lbl" Content="Stue 203" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="22,195,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
-        <CheckBox x:Name="generaleOplysninger203_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="156,201,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="helbredstilstande203_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="298,201,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
-        <CheckBox x:Name="funktionersEvneTilstande203_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="440,201,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="dagvagt203_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="545,201,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="aftenvagt203_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="575,201,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="nattevagt203_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="605,201,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="ydelser203_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="667,201,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="forflytningsplan203_chkbox" HorizontalAlignment="Left" Margin="771,201,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <CheckBox x:Name="cpr203_chkbox" HorizontalAlignment="Left" Margin="868,201,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-
-        <Separator HorizontalAlignment="Left" Margin="0,220,0,0" VerticalAlignment="Top" Height="31" Width="998" Grid.Column="1" Grid.ColumnSpan="3"/>
-
-        <Label x:Name="stue204_lbl" Content="Stue 204" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="22,245,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
-        <CheckBox x:Name="generaleOplysninger204_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="156,251,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="helbredstilstande204_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="298,251,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
-        <CheckBox x:Name="funktionersEvneTilstande204_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="440,251,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="dagvagt204_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="545,251,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="aftenvagt204_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="575,251,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="nattevagt204_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="605,251,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="ydelser204_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="667,251,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="forflytningsplan204_chkbox" HorizontalAlignment="Left" Margin="771,251,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <CheckBox x:Name="cpr204_chkbox" HorizontalAlignment="Left" Margin="868,251,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-
-        <Separator HorizontalAlignment="Left" Margin="0,270,0,0" VerticalAlignment="Top" Height="31" Width="998" Grid.Column="1" Grid.ColumnSpan="3"/>
-
-        <Label x:Name="stue205_lbl" Content="Stue 205" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="22,295,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
-        <CheckBox x:Name="generaleOplysninger205_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="156,301,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="helbredstilstande205_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="298,301,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
-        <CheckBox x:Name="funktionersEvneTilstande205_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="440,301,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="dagvagt205_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="545,301,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="aftenvagt205_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="575,301,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="nattevagt205_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="605,301,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="ydelser205_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="667,301,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="forflytningsplan205_chkbox" HorizontalAlignment="Left" Margin="771,301,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <CheckBox x:Name="cpr205_chkbox" HorizontalAlignment="Left" Margin="868,301,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-
-        <Separator HorizontalAlignment="Left" Margin="0,320,0,0" VerticalAlignment="Top" Height="31" Width="998" Grid.Column="1" Grid.ColumnSpan="3"/>
-
-        <Label x:Name="stue206_lbl" Content="Stue 206" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="22,345,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
-        <CheckBox x:Name="generaleOplysninger206_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="156,351,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="helbredstilstande206_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="298,351,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
-        <CheckBox x:Name="funktionersEvneTilstande206_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="440,351,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="dagvagt206_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="545,351,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="aftenvagt206_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="575,351,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="nattevagt206_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="605,351,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="ydelser206_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="667,351,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="forflytningsplan206_chkbox" HorizontalAlignment="Left" Margin="771,351,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <CheckBox x:Name="cpr206_chkbox" HorizontalAlignment="Left" Margin="868,351,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-
-        <Separator HorizontalAlignment="Left" Margin="0,370,0,0" VerticalAlignment="Top" Height="31" Width="998" Grid.Column="1" Grid.ColumnSpan="3"/>
-
-        <Label x:Name="stue207_lbl" Content="Stue 207" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="22,395,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
-        <CheckBox x:Name="generaleOplysninger207_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="156,401,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="helbredstilstande207_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="298,401,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
-        <CheckBox x:Name="funktionersEvneTilstande207_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="440,401,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="dagvagt207_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="545,401,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="aftenvagt207_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="575,401,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="nattevagt207_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="605,401,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="ydelser207_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="667,401,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="forflytningsplan207_chkbox" HorizontalAlignment="Left" Margin="771,401,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <CheckBox x:Name="cpr207_chkbox" HorizontalAlignment="Left" Margin="868,401,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-
-        <Separator HorizontalAlignment="Left" Margin="0,420,0,0" VerticalAlignment="Top" Height="31" Width="998" Grid.Column="1" Grid.ColumnSpan="3"/>
-
-        <Label x:Name="stue208_lbl" Content="Stue 208" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="22,445,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
-        <CheckBox x:Name="generaleOplysninger208_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="156,451,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="helbredstilstande208_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="298,451,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
-        <CheckBox x:Name="funktionersEvneTilstande208_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="440,451,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="dagvagt208_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="545,451,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="aftenvagt208_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="575,451,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="nattevagt208_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="605,451,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="ydelser208_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="667,451,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="forflytningsplan208_chkbox" HorizontalAlignment="Left" Margin="771,451,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <CheckBox x:Name="cpr208_chkbox" HorizontalAlignment="Left" Margin="868,451,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-
-        <Separator HorizontalAlignment="Left" Margin="0,470,0,0" VerticalAlignment="Top" Height="31" Width="998" Grid.Column="1" Grid.ColumnSpan="3"/>
-
-        <Label x:Name="stue209_lbl" Content="Stue 209" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="22,495,0,0" VerticalAlignment="Top" Height="26" Width="56"/>
-        <CheckBox x:Name="generaleOplysninger209_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="156,501,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="helbredstilstande209_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="298,501,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.504,0.533" Height="15" Width="16"/>
-        <CheckBox x:Name="funktionersEvneTilstande209_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="440,501,0,0" VerticalAlignment="Top" Height="15" Width="16"/>
-        <CheckBox x:Name="dagvagt209_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="545,501,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="aftenvagt209_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="575,501,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="nattevagt209_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="605,501,0,0" VerticalAlignment="Top" Height="16" Width="16" RenderTransformOrigin="0.25,2.815"/>
-        <CheckBox x:Name="ydelser209_chkbox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="667,501,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="forflytningsplan209_chkbox" HorizontalAlignment="Left" Margin="771,501,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <CheckBox x:Name="cpr209_chkbox" HorizontalAlignment="Left" Margin="868,501,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <Separator HorizontalAlignment="Left" Margin="0,520,0,0" VerticalAlignment="Top" Height="31" Width="998" Grid.Column="1" Grid.ColumnSpan="3"/>
         -->
 
     </Grid>
