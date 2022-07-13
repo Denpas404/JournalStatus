@@ -13,9 +13,10 @@
         -->
         <ScrollViewer Visibility="Visible">
             <Grid>
-        <Button x:Name="read_btn" Content="Indlæs" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Height="25" Width="50" Click="read_btn_Clik"/>
+               
+        <Button x:Name="read_btn" Content="Indlæs" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Height="25" Width="50" Click="read_btn_Click"/>
                 
-        <Button x:Name="save_btn" Content="Gem" HorizontalAlignment="Right" Margin="0,25,25,0" VerticalAlignment="Top"  Height="25" Width="50" Click="save_btn_Click" Grid.Column="1"/>
+        <Button x:Name="save_btn" Content="Gem" HorizontalAlignment="Right" Margin="0,25,25,0" VerticalAlignment="Top" Height="25" Width="50" Click="save_btn_Click" Grid.Column="1"/>
                 
         <Label x:Name="generaleOplysninger_lbl" Content="Generale Oplysninger" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="110,25,0,0" VerticalAlignment="Top" Height="26" Width="124"/>
         <Label x:Name="helbredstilstande_lbl" Content="Helbredstilstande" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="254,25,0,0" VerticalAlignment="Top" Height="26" Width="103"/>

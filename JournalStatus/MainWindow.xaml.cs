@@ -34,6 +34,6 @@ namespace JournalStatus
         private void save_btn_Click(object sender, RoutedEventArgs e)
         {
 
-        }
+        }              
     }
 }
